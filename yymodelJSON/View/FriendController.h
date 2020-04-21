@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LRYViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FriendController : UIViewController
+@interface FriendController : LRYViewController
 
 @end
 

@@ -10,8 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LRYViewController : UIViewController
+@interface LRYViewController : UIViewController <UITableViewDelegate , UITableViewDataSource>
 
+@property (weak,readonly, nonatomic) UITableView *tableView;
+@property (nonatomic,readonly,assign) UIEdgeInsets contentInset;
+
+- (void)reloadData;
+/// dequeueReusableCell
+- (UITableViewCell *)tableView:(UITableView *)tableView dequeueReusableCellWithIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath;
+
+/// configure cell data
+- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withObject:(id)object;
 @end
 
 NS_ASSUME_NONNULL_END
