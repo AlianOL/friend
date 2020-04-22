@@ -215,7 +215,7 @@ _Pragma("clang diagnostic pop")\
 
 /// 其他常量配置
 #import "MHConstant.h"
-#import "MHConstEnum.h"
+#import "LRYConstEnum.h"
 #import "MHConstInline.h"
 
 #endif /* MHMacros_h */

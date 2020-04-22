@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <ReactiveObjC.h>
+#import "BaseViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LRYTableViewModel : NSObject
+@interface LRYTableViewModel : BaseViewModel
 
 @property (copy,readwrite,nonatomic)NSArray *dataSource;
 @property (assign,readwrite,nonatomic)UITableViewStyle style;

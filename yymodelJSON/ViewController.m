@@ -13,6 +13,7 @@
 #import <ReactiveObjC.h>
 #import <NSObject+YYModel.h>
 #import "FriendController.h"
+#import <AFNetworking.h>
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *tapBtn;
 @property (weak, nonatomic) IBOutlet UITextField *myTextfield;
@@ -94,4 +95,5 @@
         NSLog(@"2秒执行一次：%@",x);
     }];
 }
+
 @end

@@ -62,6 +62,10 @@
     }
     
 }
+-(UIEdgeInsets)contentInset {
+    
+    return UIEdgeInsetsMake(MH_APPLICATION_TOP_BAR_HEIGHT, 0, 0, 0);
+}
 #pragma mark subclass can override these methods
 -(void)reloadData {
     
@@ -86,6 +90,12 @@
         object = self.viewModel.dataSource[indexPath.row];
     }
     return cell;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.viewModel.didSelectCommand execute:indexPath];//发送消息
+    
 }
 #pragma mark 上拉下拉刷新
 /// 下拉事件

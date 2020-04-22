@@ -16,21 +16,16 @@
 
 @implementation LRYTableViewModel
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.page = 1;
-        self.perPage = 20;
-        /// request remote data
-        @weakify(self)
-        self.requestDataCommad = [[RACCommand alloc] initWithSignalBlock:^(NSNumber *page) {
-            @strongify(self)
-            return [[self requestRemoteDataSignalWithPage:page.unsignedIntegerValue] takeUntil:self.rac_willDeallocSignal];
-        }];
-        
-    }
-    return self;
+- (void)initialize {
+    [super initialize];
+    self.page = 1;
+    self.perPage = 20;
+    /// request remote data
+    @weakify(self)
+    self.requestDataCommad = [[RACCommand alloc] initWithSignalBlock:^(NSNumber *page) {
+        @strongify(self)
+        return [[self requestRemoteDataSignalWithPage:page.unsignedIntegerValue] takeUntil:self.rac_willDeallocSignal];
+    }];
 }
 
 

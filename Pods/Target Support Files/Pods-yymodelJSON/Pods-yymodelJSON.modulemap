@@ -1,0 +1,6 @@
+framework module Pods_yymodelJSON {
+  umbrella header "Pods-yymodelJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
