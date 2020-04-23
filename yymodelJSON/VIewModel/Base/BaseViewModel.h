@@ -20,6 +20,7 @@ FOUNDATION_EXTERN NSString *const MHViewModelUtilKey;
 FOUNDATION_EXTERN NSString *const MHViewModelRequestKey;
 
 @protocol MHViewModelServices;
+
 @interface BaseViewModel : NSObject
 
 - (instancetype)initWithServices:(id<MHViewModelServices>)services params:(NSDictionary *)params;

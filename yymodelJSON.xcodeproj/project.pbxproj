@@ -15,6 +15,14 @@
 		475B0B35244D82EC001B0AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B0B33244D82EC001B0AEA /* LaunchScreen.storyboard */; };
 		475B0B38244D82EC001B0AEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B0B37244D82EC001B0AEA /* main.m */; };
 		475B0B40244D8797001B0AEA /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B0B3F244D8797001B0AEA /* DemoModel.m */; };
+		4761E02C24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761E02B24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.m */; };
+		4761E02F24518B1500F5F762 /* LRYHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761E02E24518B1500F5F762 /* LRYHTTPResponse.m */; };
+		4764C76B245132F6003D9CBC /* MHHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764C769245132F6003D9CBC /* MHHTTPService.m */; };
+		4764C76E245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764C76C245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.m */; };
+		4764C796245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764C794245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.m */; };
+		4764C79E245177EE003D9CBC /* MHURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764C798245177EE003D9CBC /* MHURLParameters.m */; };
+		4764C79F245177EE003D9CBC /* MHKeyedSubscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764C799245177EE003D9CBC /* MHKeyedSubscript.m */; };
+		4764C7A0245177EE003D9CBC /* MHHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764C79D245177EE003D9CBC /* MHHTTPRequest.m */; };
 		47914C54245015250000FAC8 /* FriendViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47914C53245015250000FAC8 /* FriendViewModel.m */; };
 		47914C5724501C600000FAC8 /* CommentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47914C5624501C600000FAC8 /* CommentViewModel.m */; };
 		47914C5B24501E370000FAC8 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47914C5A24501E370000FAC8 /* BaseViewModel.m */; };
@@ -54,6 +62,25 @@
 		475B0B37244D82EC001B0AEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		475B0B3E244D8797001B0AEA /* DemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
 		475B0B3F244D8797001B0AEA /* DemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		4761E0282451896B00F5F762 /* MHViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHViewModelServices.h; path = yymodelJSON/Server/MHViewModelServices.h; sourceTree = SOURCE_ROOT; };
+		4761E029245189AD00F5F762 /* MHViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHViewModelServices.h; sourceTree = "<group>"; };
+		4761E02A24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+MHHTTPServiceAdditions.h"; sourceTree = "<group>"; };
+		4761E02B24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+MHHTTPServiceAdditions.m"; sourceTree = "<group>"; };
+		4761E02D24518B1500F5F762 /* LRYHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRYHTTPResponse.h; sourceTree = "<group>"; };
+		4761E02E24518B1500F5F762 /* LRYHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRYHTTPResponse.m; sourceTree = "<group>"; };
+		4764C769245132F6003D9CBC /* MHHTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHHTTPService.m; sourceTree = "<group>"; };
+		4764C76A245132F6003D9CBC /* MHHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHHTTPService.h; sourceTree = "<group>"; };
+		4764C76C245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
+		4764C76D245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
+		4764C794245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
+		4764C795245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
+		4764C798245177EE003D9CBC /* MHURLParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHURLParameters.m; sourceTree = "<group>"; };
+		4764C799245177EE003D9CBC /* MHKeyedSubscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHKeyedSubscript.m; sourceTree = "<group>"; };
+		4764C79A245177EE003D9CBC /* MHHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHHTTPRequest.h; sourceTree = "<group>"; };
+		4764C79B245177EE003D9CBC /* MHURLParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHURLParameters.h; sourceTree = "<group>"; };
+		4764C79C245177EE003D9CBC /* MHKeyedSubscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHKeyedSubscript.h; sourceTree = "<group>"; };
+		4764C79D245177EE003D9CBC /* MHHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHHTTPRequest.m; sourceTree = "<group>"; };
+		4764C7A124517883003D9CBC /* MHHTTPServiceConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHHTTPServiceConstant.h; sourceTree = "<group>"; };
 		47914C52245015250000FAC8 /* FriendViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendViewModel.h; sourceTree = "<group>"; };
 		47914C53245015250000FAC8 /* FriendViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendViewModel.m; sourceTree = "<group>"; };
 		47914C5524501C600000FAC8 /* CommentViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentViewModel.h; sourceTree = "<group>"; };
@@ -138,6 +165,7 @@
 		475B0B24244D82E8001B0AEA /* yymodelJSON */ = {
 			isa = PBXGroup;
 			children = (
+				4764C768245132C9003D9CBC /* Server */,
 				47914C7124504E5A0000FAC8 /* NSObject */,
 				47A9BA9D244EFD9F00228981 /* Extension */,
 				47A9BA9B244EE49100228981 /* Macros */,
@@ -159,6 +187,37 @@
 				475B0B37244D82EC001B0AEA /* main.m */,
 			);
 			path = yymodelJSON;
+			sourceTree = "<group>";
+		};
+		4764C768245132C9003D9CBC /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				4761E029245189AD00F5F762 /* MHViewModelServices.h */,
+				4761E02D24518B1500F5F762 /* LRYHTTPResponse.h */,
+				4761E02E24518B1500F5F762 /* LRYHTTPResponse.m */,
+				4764C797245177EE003D9CBC /* Request */,
+				4764C795245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.h */,
+				4764C794245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.m */,
+				4764C76D245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.h */,
+				4764C76C245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.m */,
+				4764C76A245132F6003D9CBC /* MHHTTPService.h */,
+				4764C769245132F6003D9CBC /* MHHTTPService.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		4764C797245177EE003D9CBC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				4764C7A124517883003D9CBC /* MHHTTPServiceConstant.h */,
+				4764C798245177EE003D9CBC /* MHURLParameters.m */,
+				4764C799245177EE003D9CBC /* MHKeyedSubscript.m */,
+				4764C79A245177EE003D9CBC /* MHHTTPRequest.h */,
+				4764C79B245177EE003D9CBC /* MHURLParameters.h */,
+				4764C79C245177EE003D9CBC /* MHKeyedSubscript.h */,
+				4764C79D245177EE003D9CBC /* MHHTTPRequest.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		47914C5824501E0D0000FAC8 /* Base */ = {
@@ -195,6 +254,7 @@
 		47914C7124504E5A0000FAC8 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				4761E0282451896B00F5F762 /* MHViewModelServices.h */,
 				47914C7224504E5A0000FAC8 /* NSObject+MH.h */,
 				47914C7324504E5A0000FAC8 /* NSObject+MHExtension.h */,
 				47914C7524504E5A0000FAC8 /* NSObject+MHExtension.m */,
@@ -267,6 +327,8 @@
 		47A9BA9D244EFD9F00228981 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4761E02A24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.h */,
+				4761E02B24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.m */,
 				47A9BA9F244EFF5900228981 /* UIScrollView+LRYRefresh.h */,
 				47A9BAA0244EFF5900228981 /* UIScrollView+LRYRefresh.m */,
 			);
@@ -408,10 +470,17 @@
 				47914C70245044400000FAC8 /* MHReflection.m in Sources */,
 				47914C6224503A960000FAC8 /* CommentModel.m in Sources */,
 				47914C6524503AF00000FAC8 /* UserModel.m in Sources */,
+				4764C79E245177EE003D9CBC /* MHURLParameters.m in Sources */,
+				4764C76E245133A6003D9CBC /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				475B0B2D244D82E8001B0AEA /* ViewController.m in Sources */,
 				47A9BA85244EC9DB00228981 /* ContentCell.m in Sources */,
+				4761E02C24518A2900F5F762 /* RACSignal+MHHTTPServiceAdditions.m in Sources */,
+				4764C7A0245177EE003D9CBC /* MHHTTPRequest.m in Sources */,
 				47A9BA8B244ECA5E00228981 /* ContentModel.m in Sources */,
 				47A9BA91244ECB2C00228981 /* ContentViewModel.m in Sources */,
+				4761E02F24518B1500F5F762 /* LRYHTTPResponse.m in Sources */,
+				4764C76B245132F6003D9CBC /* MHHTTPService.m in Sources */,
+				4764C796245177A9003D9CBC /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				47914C6A24503D1F0000FAC8 /* BaseObject.m in Sources */,
 				47A9BA82244EC60100228981 /* FriendController.m in Sources */,
 				47A9BA9A244ED7CD00228981 /* LRYTableViewModel.m in Sources */,
@@ -419,6 +488,7 @@
 				47A9BA8E244ECA7700228981 /* ContentHeaderModel.m in Sources */,
 				475B0B27244D82E8001B0AEA /* AppDelegate.m in Sources */,
 				47914C5724501C600000FAC8 /* CommentViewModel.m in Sources */,
+				4764C79F245177EE003D9CBC /* MHKeyedSubscript.m in Sources */,
 				47A9BAA1244EFF5900228981 /* UIScrollView+LRYRefresh.m in Sources */,
 				47A9BA94244ECB4100228981 /* ContentHeaderViewModel.m in Sources */,
 				475B0B38244D82EC001B0AEA /* main.m in Sources */,

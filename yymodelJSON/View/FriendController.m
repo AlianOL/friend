@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"朋友圈";
-    // Do any additional setup after loading the view.
+    
 }
 
 
